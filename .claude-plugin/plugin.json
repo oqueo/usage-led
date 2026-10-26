@@ -1,0 +1,12 @@
+{
+  "name": "usage-led",
+  "version": "0.1.0",
+  "description": "LED-Leiste oder Statuszeile mit Sitzung, Woche, Kontext, Cache und Verbrauch je Modell, in mehreren Farbvorlagen",
+  "author": {
+    "name": "Robert-P. Pelikan, oQueo",
+    "url": "https://oqueo.io"
+  },
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "homepage": "https://oqueo.io"
+}
