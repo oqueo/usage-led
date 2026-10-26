@@ -54,6 +54,12 @@ Eintrag, mit Deinem vollständigen Pfad (ohne `~`, also zum Beispiel
 Gibt es in der Datei schon einen Block `env`, trägst Du die Zeile dort ein
 und legst keinen zweiten an. Achte auf die Kommas zwischen den Einträgen.
 
+Nutzt Du schon andere Plugins auf diese Weise, steht `CLAUDE_CODE_PLUGIN_DIRS`
+bereits da. Dann hängst Du den neuen Pfad an den vorhandenen an, getrennt durch
+einen Doppelpunkt (unter Windows durch ein Semikolon):
+
+    "CLAUDE_CODE_PLUGIN_DIRS": "/Users/DEINNAME/claude-mods/usage-led:/Users/DEINNAME/claude-mods/push-wache"
+
 Danach Claude Code **neu starten**. In der Desktop-App heißt das: App
 beenden und wieder öffnen.
 
